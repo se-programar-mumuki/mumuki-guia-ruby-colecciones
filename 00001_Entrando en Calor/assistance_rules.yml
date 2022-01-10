@@ -1,0 +1,30 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - CarlosDuty Not:Uses:@dificultad
+  then: "`CarlosDuty` calcula su dificultad en el método `dificultad`.  No la guarda
+    en un atributo `@dificultad`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Metroide Not:Uses:@dificultad
+  then: la dificultad de `Metroide` es siempre `100` en el método `dificultad`.  No
+    la guarda en un atributo `@dificultad`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - violento? Not:Assigns
+  then: para saber si un juego es `violento?` no hace falta utilizar un atributo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - dificultad Not:Assigns
+  then: el método `dificultad` solo debe retornar la dificultad de un juego, no declarar
+    ni modificar atributos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Except:HasRedundantIf"
+  then: no hace falta utilizar `if` para responder si un juego es violento

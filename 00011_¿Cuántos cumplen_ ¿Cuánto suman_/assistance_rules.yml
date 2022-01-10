@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - promedio_de_violencia Delegates
+  then: "`promedio_de_violencia` debería delegar en otros métodos el cálculo de la
+    sumatoria de dificultades y la cantidad de juegos violentos"

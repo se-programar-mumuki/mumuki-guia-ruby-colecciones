@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: CarlosDuty
+  inspection: Not:Uses:@dificultad
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: violento?
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dificultad
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Metroide
+  inspection: Not:Uses:@dificultad

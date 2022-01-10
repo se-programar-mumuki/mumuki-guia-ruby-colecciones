@@ -1,0 +1,1 @@
+Quizá estés pensando, _¿qué tiene que ver todo esto con las colecciones?_ ¡Paciencia! :expressionless: En el siguiente ejercicio veremos cómo combinar colecciones y bloques para poder enviar mensajes más complejos.

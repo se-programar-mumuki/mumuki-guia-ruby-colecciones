@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dificultad_violenta
+  inspection: Uses:map
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dificultad_violenta
+  inspection: Uses:juegos_violentos

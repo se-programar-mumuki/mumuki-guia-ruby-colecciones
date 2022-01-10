@@ -1,0 +1,1 @@
+:warning: ¡Cuidado con el orden! La lista es un tipo de colección donde **el orden importa**. Por lo tanto, no es lo mismo poner un objeto al principio que agregarlo al final. ¡Atención a eso! :open_mouth:

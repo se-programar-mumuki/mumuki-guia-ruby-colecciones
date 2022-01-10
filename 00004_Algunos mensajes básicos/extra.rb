@@ -1,0 +1,1 @@
+numeros_de_la_suerte = [6, 42, 9]

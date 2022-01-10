@@ -1,0 +1,1 @@
+Un dato curioso para tener en cuenta: ¡los mensajes `find` y `detect` hacen exactamente lo mismo! :open_mouth: 

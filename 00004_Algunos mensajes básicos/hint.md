@@ -1,0 +1,1 @@
+Recordá que, además de los mensajes que vimos recién, podés enviar simplemente `numeros_de_la_suerte` en la consola para ver qué elementos componen a la colección. :relieved:
